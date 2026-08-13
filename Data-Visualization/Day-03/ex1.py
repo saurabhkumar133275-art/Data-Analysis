@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv(r"D:\Data_visu_7352\tips.csv")
+data = pd.read_csv("tips.csv")
 
 print(data.head())
 print(data.info())
